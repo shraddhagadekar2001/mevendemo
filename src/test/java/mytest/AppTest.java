@@ -22,7 +22,7 @@ public class AppTest  {
 
 
 	@Test
-	public void testApp1() {
+	public void testApp2() {
 		Test1 t = new Test1();
 		String expected = "AAAA";
 		String actual = t.palindrome(expected);
