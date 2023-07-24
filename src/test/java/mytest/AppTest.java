@@ -15,8 +15,17 @@ public class AppTest  {
 	@Test
 	public void testApp1() {
 		Test1 t = new Test1();
-		String expected = "eehh";
-		String actual = t.palindrome("HeeH");
+		String expected = "HeeH";
+		String actual = t.palindrome(expected);
+		Assertions.assertEquals(expected, actual);
+	}
+
+
+	@Test
+	public void testApp1() {
+		Test1 t = new Test1();
+		String expected = "AAAA";
+		String actual = t.palindrome(expected);
 		Assertions.assertEquals(expected, actual);
 	}
 }
